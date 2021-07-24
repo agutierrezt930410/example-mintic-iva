@@ -1,0 +1,31 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Ejemplo api en nodejs para el iv-a del proyecto del mintic",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "keywords": [
+    "api",
+    "nodejs"
+  ],
+  "author": "Andres Gutierrez <agutierrezt@slabcodde.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "7.31.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "express": "4.17.1",
+    "lodash": "4.17.21",
+    "mongoose": "5.13.3"
+  }
+}
